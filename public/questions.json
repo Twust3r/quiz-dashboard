@@ -1,0 +1,252 @@
+[
+  {
+    "type": "mcq",
+    "question": "In the context of ABC inventory analysis, which of the following management strategies is most appropriate for a pharmacy’s 'Category A' items?",
+    "options": [
+      "A) Count monthly and order in bulk to minimize administrative effort.",
+      "B) Count weekly and order regularly to maintain moderate control.",
+      "C) Count daily, order frequently in small quantities, and maintain tight control.",
+      "D) Delegate inventory management entirely to the vendor (VMI) to reduce internal workload."
+    ],
+    "correct_answer": "C) Count daily, order frequently in small quantities, and maintain tight control.",
+    "explanations": {
+      "correct_reason": "Category A items are high-value and critical (representing 10–20% of items but 70–80% of value). The prescribed management strategy is to count daily, order frequently in small quantities, and maintain tight control to prevent stockouts of critical drugs.",
+      "incorrect_reasons": [
+        "Counting monthly and ordering in bulk is the strategy for Category C items (low value), not high-value Category A items.",
+        "Counting weekly is the prescribed strategy for Category B items (moderate value), not Category A.",
+        "Delegating entirely to the vendor (VMI) does not provide the 'tight control' required for high-value, critical Category A items like cancer drugs."
+      ]
+    }
+  },
+  {
+    "type": "mcq",
+    "question": "A pharmacy manager notices a 15% discrepancy rate in medical ward discharge medication lists. She implements a new reconciliation protocol, trains the staff, and then audits 50 discharge summaries monthly to track progress. Which phase of the management cycle does the monthly auditing represent?",
+    "options": ["A) Planning", "B) Organizing", "C) Leading", "D) Controlling"],
+    "correct_answer": "D) Controlling",
+    "explanations": {
+      "correct_reason": "The management cycle defines 'Controlling' as the process of monitoring performance against standards, identifying deviations, and taking corrective action. Auditing discharge summaries monthly to track progress is explicitly a monitoring/control mechanism.",
+      "incorrect_reasons": [
+        "Planning involves setting goals and determining the course of action (e.g., deciding to implement the protocol), not monitoring it.",
+        "Organizing involves allocating resources and structuring tasks (e.g., training staff), not auditing the outcomes.",
+        "Leading involves motivating and guiding people, whereas auditing is a formal measurement and monitoring activity."
+      ]
+    }
+  },
+  {
+    "type": "mcq",
+    "question": "According to the Good Pharmacy Practice (GPP) standards jointly developed by WHO and FIP, which of the following is explicitly listed as one of the four core roles of a pharmacist?",
+    "options": [
+      "A) Maximizing the pharmacy’s annual profit margin to at least 15%.",
+      "B) Improving the healthcare system through public health advocacy and interprofessional collaboration.",
+      "C) Delegating all clinical screening tasks to senior pharmacy technicians to optimize workflow.",
+      "D) Ensuring all manufactured medicines meet Good Manufacturing Practice (GMP) standards on-site."
+    ],
+    "correct_answer": "B) Improving the healthcare system through public health advocacy and interprofessional collaboration.",
+    "explanations": {
+      "correct_reason": "The four core roles of a pharmacist under GPP include: 1) Prepare/dispense medicines, 2) Medication therapy management, 3) Maintain professional performance, and 4) Improve the healthcare system (which includes public health advocacy and collaboration).",
+      "incorrect_reasons": [
+        "Maximizing profit is a business objective, not a core clinical or professional role defined by WHO/FIP GPP standards.",
+        "Pharmacists cannot delegate all clinical screening; they retain ultimate professional responsibility for clinical checks and patient safety.",
+        "Ensuring medicines meet GMP standards is the role of manufacturers and regulatory bodies, not the core role of a community/hospital pharmacist."
+      ]
+    }
+  },
+  {
+    "type": "mcq",
+    "question": "A pharmacy experiences a sudden, unexpected power outage. The staff immediately activates the backup generator, transfers critical cold-chain drugs to alternative storage, and logs the temperatures. This action is an example of which type of planning?",
+    "options": ["A) Strategic Planning", "B) Tactical Planning", "C) Operational Planning", "D) Contingency Planning"],
+    "correct_answer": "D) Contingency Planning",
+    "explanations": {
+      "correct_reason": "Contingency planning is defined as planning for unexpected events and emergencies. Activating a backup generator and transferring critical drugs during a sudden power outage is a classic contingency plan.",
+      "incorrect_reasons": [
+        "Strategic planning is long-term, high-level planning (e.g., 5-year goals), not immediate emergency response.",
+        "Tactical planning is mid-term planning focused on how to achieve strategic goals (e.g., yearly departmental budgets).",
+        "Operational planning deals with day-to-day routine operations, not sudden, unexpected emergency responses."
+      ]
+    }
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following scenarios best illustrates a violation of the management principle of 'Unity of Command'?",
+    "options": [
+      "A) A pharmacy technician is instructed by the pharmacy manager to restock shelves, but the lead pharmacist simultaneously instructs the same technician to immediately process a new batch of prescriptions, causing confusion.",
+      "B) A pharmacist is held responsible for a dispensing error but was not given the authority to implement a double-check system.",
+      "C) A pharmacy offers equal break times and promotion opportunities to all staff members regardless of tenure.",
+      "D) A pharmacy divides work so that technicians handle data entry while pharmacists handle clinical checks."
+    ],
+    "correct_answer": "A) A pharmacy technician is instructed by the pharmacy manager to restock shelves, but the lead pharmacist simultaneously instructs the same technician to immediately process a new batch of prescriptions, causing confusion.",
+    "explanations": {
+      "correct_reason": "The Principle of Unity of Command states that each employee should report to only one manager to avoid confusion. Giving a technician simultaneous, conflicting orders from two different supervisors directly violates this.",
+      "incorrect_reasons": [
+        "This scenario illustrates a violation of the principle of 'Parity of Authority and Responsibility', not Unity of Command.",
+        "This scenario illustrates the principle of 'Equity' (fairness and equal treatment), not Unity of Command.",
+        "This scenario illustrates the 'Division of Work' principle (specialization), which is a positive application of management principles."
+      ]
+    }
+  },
+  {
+    "type": "mcq",
+    "question": "When applying the Eisenhower Matrix to time management, where does 'Quarterly inventory review and staff CPD training' best fit, and what is the recommended action?",
+    "options": [
+      "A) Quadrant 1 (Urgent & Important) – DO NOW",
+      "B) Quadrant 2 (Not Urgent but Important) – SCHEDULE",
+      "C) Quadrant 3 (Urgent but Not Important) – DELEGATE",
+      "D) Quadrant 4 (Not Urgent & Not Important) – ELIMINATE"
+    ],
+    "correct_answer": "B) Quadrant 2 (Not Urgent but Important) – SCHEDULE",
+    "explanations": {
+      "correct_reason": "The Eisenhower Matrix categorizes tasks that are 'Not Urgent but Important' into Quadrant 2, with the recommended action being to SCHEDULE them. CPD, training, and quarterly reviews are classic Quadrant 2 activities.",
+      "incorrect_reasons": [
+        "Quadrant 1 is for immediate crises and pressing deadlines (e.g., a patient waiting for an emergency medication).",
+        "Quadrant 3 is for interruptions and some calls/meetings that demand immediate attention but don't contribute to long-term goals.",
+        "Quadrant 4 is for trivial time-wasters (e.g., excessive personal phone use) that should be eliminated."
+      ]
+    }
+  },
+  {
+    "type": "mcq",
+    "question": "Elton Mayo’s Human Relations theory of management emphasizes that:",
+    "options": [
+      "A) Work should be scientifically studied and broken down into standardized, optimized tasks for maximum efficiency.",
+      "B) There is no 'one best way' to manage, and the approach must adapt to the specific context and team.",
+      "C) Social factors, group dynamics, and making workers feel valued are as critical to productivity as technical conditions.",
+      "D) Authority must always be strictly centralized, especially during a pharmacy crisis or emergency."
+    ],
+    "correct_answer": "C) Social factors, group dynamics, and making workers feel valued are as critical to productivity as technical conditions.",
+    "explanations": {
+      "correct_reason": "Elton Mayo’s Human Relations theory (derived from the Hawthorne Studies) emphasizes that 'happy, motivated workers are more productive' and that social factors and group dynamics matter as much as technical conditions.",
+      "incorrect_reasons": [
+        "This describes Frederick Taylor's 'Scientific Management' theory, which focuses on task optimization and efficiency.",
+        "This describes the 'Contingency Theory' of management, which argues that management styles must adapt to the situation.",
+        "This describes a strict 'Autocratic' or centralized leadership style, which is not the focus of the Human Relations theory."
+      ]
+    }
+  },
+  {
+    "type": "mcq",
+    "question": "A hospital pharmacy is evaluating the purchase of a $100,000 robotic dispensing system. The system is projected to save $30,000 annually in staff time and error reduction. What is the Return on Investment (ROI) for the first year?",
+    "options": ["A) 10%", "B) 30%", "C) 70%", "D) 100%"],
+    "correct_answer": "B) 30%",
+    "explanations": {
+      "correct_reason": "The formula for Return on Investment (ROI) is: ROI = (Net Profit / Cost of Investment) × 100. Using the numbers provided: ($30,000 / $100,000) × 100 = 30%.",
+      "incorrect_reasons": [
+        "10% would be the result of incorrect math, such as dividing the cost by the profit ($100k/$30k) and misplacing the decimal.",
+        "70% would be the result of calculating the remaining cost ($70k) rather than the return on the investment.",
+        "100% would imply the system paid for itself entirely in the first year, which is incorrect based on the $30,000 savings."
+      ]
+    }
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following goals is formulated correctly according to the SMART framework?",
+    "options": [
+      "A) 'Improve patient counseling services in the pharmacy to ensure better health outcomes.'",
+      "B) 'Reduce dispensing errors by implementing a new checking system soon.'",
+      "C) 'Increase the patient counseling rate from 20% to 80% of all discharged patients within the next 3 months by training two dedicated staff members.'",
+      "D) 'Achieve zero medication errors in the pharmacy by next year through better staff motivation.'"
+    ],
+    "correct_answer": "C) 'Increase the patient counseling rate from 20% to 80% of all discharged patients within the next 3 months by training two dedicated staff members.'",
+    "explanations": {
+      "correct_reason": "This option satisfies all SMART criteria: Specific (counseling rate), Measurable (20% to 80%), Achievable (by training staff), Relevant (improves care), and Time-Bound (within 3 months).",
+      "incorrect_reasons": [
+        "This goal is vague. It lacks a measurable target (how much improvement?) and a time-bound deadline.",
+        "This goal lacks a specific measurable target and uses the vague timeframe 'soon' instead of a specific date.",
+        "While time-bound, 'zero medication errors' is generally considered unachievable in practice, and 'better staff motivation' is not a specific, actionable metric."
+      ]
+    }
+  },
+  {
+    "type": "mcq",
+    "question": "In the context of GxP standards, ensuring that a shipment of insulin is transported in a temperature-controlled vehicle with proper documentation and traceability falls primarily under:",
+    "options": ["A) Good Manufacturing Practice (GMP)", "B) Good Storage Practice (GSP)", "C) Good Distribution Practice (GDP)", "D) Good Pharmacy Practice (GPP)"],
+    "correct_answer": "C) Good Distribution Practice (GDP)",
+    "explanations": {
+      "correct_reason": "Good Distribution Practice (GDP) ensures medicines are transported and distributed under conditions that maintain quality. Its key requirements explicitly include secure transport, temperature-controlled vehicles, proper documentation, and traceability.",
+      "incorrect_reasons": [
+        "GMP applies to the manufacturing and production of medicines, not their transport and distribution.",
+        "GSP applies to the storage of medicines within a fixed facility (like a pharmacy warehouse), not the transit between locations.",
+        "GPP covers the overall role of the pharmacist and patient care, but GDP is the specific standard governing the transport and supply chain."
+      ]
+    }
+  },
+  {
+    "type": "mcq",
+    "question": "A pharmacy manager decides to allow an experienced, highly competent senior pharmacy technician to manage the daily controlled substance log independently, with minimal supervision. Which leadership style is being applied?",
+    "options": ["A) Autocratic", "B) Democratic", "C) Laissez-faire", "D) Transformational"],
+    "correct_answer": "C) Laissez-faire",
+    "explanations": {
+      "correct_reason": "The Laissez-faire leadership style provides 'high autonomy, minimal intervention.' It is highly appropriate for experienced professionals handling independent, routine tasks.",
+      "incorrect_reasons": [
+        "Autocratic leadership involves strict control and making decisions without employee input, which is the opposite of granting independence.",
+        "Democratic leadership involves collaborative decision-making and group consensus, not unilateral delegation of tasks.",
+        "Transformational leadership focuses on inspiring change, vision, and motivating staff toward a new goal, rather than just delegating a routine task."
+      ]
+    }
+  },
+  {
+    "type": "mcq",
+    "question": "During a SWOT analysis for a community pharmacy, the opening of a new, well-funded competitor pharmacy across the street would be classified as a:",
+    "options": ["A) Strength", "B) Weakness", "C) Opportunity", "D) Threat"],
+    "correct_answer": "D) Threat",
+    "explanations": {
+      "correct_reason": "In a SWOT analysis, a 'Threat' is an external factor that could negatively impact the organization. A new competitor opening across the street is an external negative factor.",
+      "incorrect_reasons": [
+        "Strengths are internal, positive attributes of the pharmacy (e.g., highly trained staff, prime location).",
+        "Weaknesses are internal, negative attributes (e.g., outdated software, high staff turnover).",
+        "Opportunities are external, positive factors (e.g., a new clinic opening nearby, new funding for health programs)."
+      ]
+    }
+  },
+  {
+    "type": "mcq",
+    "question": "Which of the following best describes the difference between 'Leading' and 'Managing' in a pharmacy setting?",
+    "options": [
+      "A) Leading focuses on short-term tasks and processes, while managing focuses on long-term vision and inspiring people.",
+      "B) Leading is primarily concerned with budgeting and resource allocation, while managing is about emotional intelligence.",
+      "C) Leading focuses on inspiring people, setting a vision, and asking 'Why?', while managing focuses on organizing tasks, processes, and asking 'How?'.",
+      "D) Leading is only performed by top-level managers, while managing is only performed by lower-level supervisors."
+    ],
+    "correct_answer": "C) Leading focuses on inspiring people, setting a vision, and asking 'Why?', while managing focuses on organizing tasks, processes, and asking 'How?'.",
+    "explanations": {
+      "correct_reason": "Leadership focuses on 'people and vision' and asks 'Why are we doing this?', whereas Management focuses on 'tasks and processes' and asks 'How do we do this?'.",
+      "incorrect_reasons": [
+        "This option reverses the definitions. Leading is long-term/visionary; managing is short-term/process-oriented.",
+        "This option reverses the concepts. Budgeting/resource allocation is management; emotional intelligence/inspiring is leadership.",
+        "Both leading and managing can be performed at any level of the organization, not just restricted to top or lower levels."
+      ]
+    }
+  },
+  {
+    "type": "mcq",
+    "question": "According to the text, what is the primary scientific reason for using the FEFO (First Expiry, First Out) method over FIFO (First In, First Out) in pharmacy inventory management?",
+    "options": [
+      "A) FEFO is easier to implement in automated dispensing systems.",
+      "B) FEFO specifically targets the prevention of waste and ensures patient safety by prioritizing the use of medicines closest to their expiration date, regardless of when they were received.",
+      "C) FEFO reduces the need for daily inventory counting of Category A items.",
+      "D) FEFO is mandated by financial auditors to maximize short-term revenue."
+    ],
+    "correct_answer": "B) FEFO specifically targets the prevention of waste and ensures patient safety by prioritizing the use of medicines closest to their expiration date, regardless of when they were received.",
+    "explanations": {
+      "correct_reason": "FEFO ensures the 'soonest expiring stock is used first.' It is essential for all medicines with expiry dates to prevent waste and ensure patient safety, making it scientifically superior to FIFO for pharmacy inventory.",
+      "incorrect_reasons": [
+        "FEFO actually requires more rigorous tracking of expiry dates, making it potentially more complex to implement than simple FIFO.",
+        "FEFO has nothing to do with reducing the counting frequency of high-value Category A items; those still require daily counts.",
+        "FEFO is a clinical and inventory safety standard, not a financial accounting mandate designed to maximize short-term revenue."
+      ]
+    }
+  },
+  {
+    "type": "mcq",
+    "question": "In Medication Therapy Management (MTM), 'conducting follow-up appointments to monitor clinical outcomes (e.g., blood pressure, A1c) and assess adherence' corresponds to which core management function?",
+    "options": ["A) Planning", "B) Organizing", "C) Leading", "D) Controlling"],
+    "correct_answer": "D) Controlling",
+    "explanations": {
+      "correct_reason": "Under the 'Management in Patient Care' section, the MTM process maps to the four management functions. 'Control the Outcomes' explicitly includes follow-up appointments, monitoring clinical outcomes, assessing adherence, and adjusting therapy.",
+      "incorrect_reasons": [
+        "Planning in MTM involves the initial patient assessment and developing the initial care plan, not the follow-up.",
+        "Organizing in MTM involves setting up the clinic, allocating resources, and scheduling the initial appointments.",
+        "Leading in MTM involves motivating the patient, educating them, and building a therapeutic relationship."
+      ]
+    }
+  }
+]
