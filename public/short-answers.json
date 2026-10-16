@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "A pharmacy manager is deciding how many pharmacy technicians to hire for the upcoming busy season. Although the Planner role involves 'allocating resources,' which specific managerial role is explicitly responsible for this staffing decision?",
+    "answer_key": "Resource Allocator",
+    "trick": "The text explicitly lists 'Allocating resources' under the Planner role, which makes it a tempting distractor. However, 'Staffing' is explicitly listed as an activity under the Resource Allocator role."
+  },
+  {
+    "id": 2,
+    "question": "A pharmacy manager is drafting a new contract with a third-party medical delivery company. Because this involves a new service, one might assume it is 'Service development.' However, based on the provided text, under which role does 'Service agreements' actually fall?",
+    "answer_key": "Negotiator",
+    "trick": "The word 'Service' appears in both Entrepreneur ('Service development') and Negotiator ('Service agreements'). Drafting a contract with a third party is a 'Service agreement,' making it a Negotiator activity, not an Entrepreneurial one."
+  },
+  {
+    "id": 3,
+    "question": "When a pharmacy manager is negotiating a new salary and benefits package for the lead pharmacist, are they acting primarily in the role of a Resource Allocator (due to 'Staffing') or a Negotiator?",
+    "answer_key": "Negotiator",
+    "trick": "Salary involves human resources, making 'Resource Allocator' (which handles 'Staffing') seem correct. However, the text explicitly assigns 'Staff compensation' to the Negotiator role."
+  },
+  {
+    "id": 4,
+    "question": "A manager is adjusting the daily shift hours of the dispensary team to ensure optimal coverage without exceeding operational limits. While this involves 'creating schedules' (a Planner activity), the specific activity of 'time management' to distribute resources effectively belongs to which role?",
+    "answer_key": "Resource Allocator",
+    "trick": "'Creating plans and schedules' is a Planner activity, but 'Time management' is explicitly listed as a distinct activity under the Resource Allocator role. The trick is distinguishing between making the schedule (Planner) and managing the time resource effectively (Resource Allocator)."
+  },
+  {
+    "id": 5,
+    "question": "A pharmacy manager introduces a completely new, automated dispensing system to capture a new market segment, accepting the financial uncertainty that comes with it. Although this requires 'establishing processes' (Planner), which role is fundamentally defined by this 'risk-taking' and 'innovation'?",
+    "answer_key": "Entrepreneur",
+    "trick": "Implementing a new system requires 'establishing processes' (Planner), but the core drivers mentioned—capturing a new market segment, 'innovation,' and 'risk-taking'—are the exact defining activities of the Entrepreneur role."
+  }
+]

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy Management Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/2.4.0/html2pdf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="fixed-progress-bar"><div id="progress-fill" class="progress-fill"></div></div>
+    <button id="settings-btn" class="settings-btn" title="Admin Settings">⚙️</button>
+    <div class="container">
+        <div id="view-register" class="view active">
+            <div class="card">
+                <h1> Student Registration</h1>
+                <p class="subtitle">Please enter your details to begin the quiz.</p>
+                <form id="register-form">
+                    <div class="form-group"><label>First Name *</label><input type="text" id="first-name" required></div>
+                    <div class="form-group"><label>Middle Name (Optional)</label><input type="text" id="middle-name"></div>
+                    <div class="form-group"><label>Surname *</label><input type="text" id="surname" required></div>
+                    <div class="form-group"><label>Student Computer ID *</label><input type="text" id="computer-id" required></div>
+                    <button type="submit" class="btn btn-primary">Start Quiz</button>
+                </form>
+            </div>
+        </div>
+        <div id="view-quiz" class="view">
+            <div class="card">
+                <div class="quiz-header"><h2>Question <span id="q-current">1</span> of <span id="q-total">15</span></h2></div>
+                <div id="question-container" class="question-container"></div>
+                <div class="quiz-nav"><button id="btn-next" class="btn btn-primary">Next</button></div>
+            </div>
+        </div>
+        <div id="view-short-answers" class="view">
+            <div class="card">
+                <h1> Part 2: Short Answer Questions</h1>
+                <div class="sa-intro">
+                    <p><strong>Instructions:</strong> These 5 questions are <u>not graded</u>, but they are designed to test your deep understanding of the Managerial Roles. Pay close attention to the specific wording, as there are "tricks" designed to distract you!</p>
+                </div>
+                <div id="sa-waiting" class="sa-waiting">
+                    <div class="spinner"></div>
+                    <h3>Waiting for Admin to start this section...</h3>
+                    <p>Please wait. The administrator will unlock this section for the whole class shortly.</p>
+                </div>
+                <div id="sa-questions" style="display: none;">
+                    <div id="sa-container"></div>
+                    <button id="btn-submit-sa" class="btn btn-primary" style="margin-top: 20px; width: 100%;">Submit Short Answers</button>
+                </div>
+            </div>
+        </div>
+        <div id="view-results" class="view">
+            <div class="card" id="results-content">
+                <h1>🎉 Quiz Completed!</h1>
+                <div class="score-display"><h2 id="score-text">Score: 0/0 (0%)</h2></div>
+                <div id="breakdown-container" class="breakdown-container"></div>
+            </div>
+            <div class="results-actions">
+                <button id="btn-download-pdf" class="btn btn-success">📄 Download PDF Report</button>
+                <button id="btn-retake" class="btn btn-secondary">Retake Quiz</button>
+            </div>
+        </div>
+        <div id="view-admin-login" class="view">
+            <div class="card small-card">
+                <h2> Admin Access</h2>
+                <form id="admin-login-form">
+                    <div class="form-group"><label>Admin Password</label><input type="password" id="admin-password" required></div>
+                    <p id="login-error" class="error-text"></p>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                    <button type="button" id="btn-cancel-login" class="btn btn-secondary">Cancel</button>
+                </form>
+            </div>
+        </div>
+        <div id="view-admin-dashboard" class="view">
+            <div class="card wide-card">
+                <div class="admin-header">
+                    <h2>📊 Admin Dashboard</h2>
+                    <button id="btn-logout" class="btn btn-secondary">Logout</button>
+                </div>
+                <div class="admin-tabs">
+                    <button class="tab-btn active" data-tab="marks">📋 View Marks</button>
+                    <button class="tab-btn" data-tab="analytics">📈 Analytics</button>
+                </div>
+                <div id="tab-content-marks" class="tab-content active">
+                    <button id="btn-toggle-sa" class="btn btn-primary" style="margin-bottom: 20px;"> Enable Short Answer Section for Students</button>
+                    <div class="table-container">
+                        <table id="marks-table">
+                            <thead><tr><th data-sort="name">Student Name <span class="sort-icon">↕</span></th><th data-sort="computerId">Computer ID <span class="sort-icon">↕</span></th><th data-sort="timestamp">Date & Time <span class="sort-icon">↕</span></th><th data-sort="score">Score (%) <span class="sort-icon">↕</span></th><th>Short Answers</th></tr></thead>
+                            <tbody id="marks-tbody"></tbody>
+                        </table>
+                    </div>
+                </div>
+                <div id="tab-content-analytics" class="tab-content"><div id="analytics-container"><p class="empty-state">Loading analytics...</p></div></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
