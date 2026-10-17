@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "topic": "ABC Inventory Analysis",
+    "question": "In an ABC inventory analysis of a pharmacy's stock, which strategy best suits Category A items?",
+    "options": [
+      "Tight control with frequent review, accurate records and carefully set safety stock",
+      "Order in bulk once a year to maximise supplier discounts",
+      "Review only annually, because there are very few of these items",
+      "Hold very large safety stocks so a stock-out can never occur"
+    ],
+    "correct_index": 0,
+    "explanations": {
+      "correct_reason": "Category A items are the small number of products (often 10-20% of lines) that account for most of the inventory value (often 70-80%). Because so much money is tied up in them, they justify the closest management: frequent stock counts, accurate records, regular demand forecasting, frequent small orders and carefully calculated (lean) safety stock.",
+      "incorrect_reasons": [
+        "Annual bulk ordering is appropriate, if at all, for low-value Category C items. For high-value A items it would lock up large amounts of capital and expose the pharmacy to expiry and obsolescence losses.",
+        "A small number of items does not mean low importance. A items represent the biggest financial exposure, so they need the most frequent review, not the least.",
+        "Large safety stocks of expensive items waste capital and raise holding and expiry costs. Safety stock for A items should be as lean as reliable supply allows, supported by close monitoring."
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "topic": "Management Cycle",
+    "question": "A pharmacy manager audits discharge summaries to check that counselling and medication reconciliation were done correctly, and corrects any gaps found. Which function of the management cycle is this?",
+    "options": [
+      "Planning",
+      "Organizing",
+      "Leading",
+      "Controlling"
+    ],
+    "correct_index": 3,
+    "explanations": {
+      "correct_reason": "Controlling means measuring actual performance against standards, identifying deviations and taking corrective action. Auditing discharge summaries compares what was done with what should have been done and then fixes the gaps, which is the essence of control.",
+      "incorrect_reasons": [
+        "Planning is deciding in advance what goals to pursue and how to achieve them (for example, writing the discharge counselling procedure). Auditing happens after the work is done.",
+        "Organizing involves structuring work, assigning roles and arranging resources. An audit does not create structure; it checks results.",
+        "Leading is about motivating, communicating with and guiding people. An audit evaluates outputs against standards rather than inspiring staff."
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "topic": "Good Pharmacy Practice",
+    "question": "Which option best describes the core roles of the pharmacist set out in the FIP/WHO Good Pharmacy Practice (GPP) guidelines?",
+    "options": [
+      "Maximising profit, minimising staffing levels and dispensing only prescription items",
+      "Preparing and dispensing medicines, providing effective medication management and advice, maintaining professional competence and contributing to health promotion",
+      "Diagnosing disease, prescribing independently of other professionals and performing minor surgery",
+      "Marketing branded products, managing property and processing insurance claims only"
+    ],
+    "correct_index": 1,
+    "explanations": {
+      "correct_reason": "GPP defines the pharmacist's mission as contributing to health and helping people use medicines well. Its core roles are: preparing, obtaining, storing, distributing and dispensing medicines; providing effective medication management and advice; maintaining and improving professional performance; and contributing to the effectiveness of the healthcare system and public health.",
+      "incorrect_reasons": [
+        "Commercial viability matters, but GPP places patient welfare first. Cutting staff or limiting services purely for profit conflicts with GPP's emphasis on quality service.",
+        "Diagnosis, independent prescribing and surgery lie outside the GPP core roles. Pharmacists collaborate with other health professionals rather than replacing them.",
+        "Marketing, property and claims processing are business tasks that may support a pharmacy, but they are not the professional roles that GPP defines."
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "topic": "Contingency Planning",
+    "question": "During a storm, the power fails and the pharmacy's vaccine refrigerator begins to warm. Which management practice would best have prepared the pharmacy for this event?",
+    "options": [
+      "Setting SMART sales targets for the quarter",
+      "Contingency planning, including a backup generator, cold-chain emergency procedures and an agreement to transfer stock",
+      "Performing an ABC analysis of the whole inventory",
+      "Conducting annual staff performance appraisals"
+    ],
+    "correct_index": 1,
+    "explanations": {
+      "correct_reason": "Contingency planning identifies foreseeable risks (such as power outages) and prepares responses in advance: backup power, temperature monitoring and alarms, written cold-chain emergency procedures, and arrangements to move vaccines to another site. This protects product quality and patient safety.",
+      "incorrect_reasons": [
+        "SMART targets help with performance goals but do nothing to protect stock during an emergency such as a power cut.",
+        "ABC analysis prioritises inventory control by value. It does not provide a response plan for equipment or utility failure.",
+        "Appraisals evaluate staff performance and development. They are unrelated to safeguarding temperature-sensitive medicines in an emergency."
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "topic": "Unity of Command",
+    "question": "A pharmacy technician receives conflicting instructions about task priorities from the pharmacy manager and from a clinical director at the same time. Which management principle has been violated?",
+    "options": [
+      "Division of work",
+      "Unity of command",
+      "Esprit de corps",
+      "Remuneration"
+    ],
+    "correct_index": 1,
+    "explanations": {
+      "correct_reason": "Fayol's principle of unity of command states that an employee should receive orders from only one superior. Conflicting instructions from two managers cause confusion, divided loyalty, delays and errors, which is especially risky in a dispensing environment.",
+      "incorrect_reasons": [
+        "Division of work is about specialising tasks to improve efficiency. The problem here is not how work is divided but who gives the orders.",
+        "Esprit de corps concerns team harmony and morale. Conflicting orders may harm morale, but the principle directly breached is unity of command.",
+        "Remuneration concerns fair pay for work done. Pay is not at issue in this scenario."
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "topic": "Eisenhower Matrix",
+    "question": "A pharmacy manager plans a quarterly review of standard operating procedures. Nothing is overdue, but the review matters for long-term quality. Where does it sit in the Eisenhower Matrix and what should be done?",
+    "options": [
+      "Quadrant 1 (urgent and important): do it immediately",
+      "Quadrant 2 (important, not urgent): schedule it",
+      "Quadrant 3 (urgent, not important): delegate it",
+      "Quadrant 4 (neither urgent nor important): eliminate it"
+    ],
+    "correct_index": 1,
+    "explanations": {
+      "correct_reason": "A quarterly SOP review contributes to long-term quality and compliance (important) but has no immediate deadline (not urgent). Quadrant 2 tasks should be deliberately scheduled; doing so prevents them from becoming Quadrant 1 crises later.",
+      "incorrect_reasons": [
+        "Quadrant 1 is for crises and tight deadlines, such as a recall or a dispensing error. A routine scheduled review is not a crisis.",
+        "Quadrant 3 holds tasks that are urgent but add little value, such as some interruptions. An SOP review is high-value and should not be handed off carelessly.",
+        "Quadrant 4 covers trivial time-wasters. SOP reviews protect patient safety and regulatory compliance, so eliminating them would be harmful."
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "topic": "Human Relations Theory",
+    "question": "A manager finds that staff productivity improves after she begins consulting technicians about their concerns and showing genuine interest in their wellbeing. Which theory does this best illustrate?",
+    "options": [
+      "Taylor's Scientific Management",
+      "Weber's Bureaucratic theory",
+      "Elton Mayo's Human Relations theory",
+      "Fayol's theory of administrative principles"
+    ],
+    "correct_index": 2,
+    "explanations": {
+      "correct_reason": "Elton Mayo's Hawthorne studies showed that social factors, such as attention, recognition, belonging and good relationships, strongly influence productivity, sometimes more than physical conditions or pay. Consulting and caring for staff is the core of the Human Relations approach.",
+      "incorrect_reasons": [
+        "Scientific Management focuses on time-and-motion study, standardised methods and financial incentives, treating workers largely as parts of an efficient process.",
+        "Bureaucratic theory emphasises formal rules, hierarchy and impersonal procedures, not personal attention to employees' feelings.",
+        "Fayol described general administrative principles and management functions, such as unity of command and division of work. His focus was structure rather than social motivation."
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "topic": "Return on Investment",
+    "question": "A pharmacy buys an automated dispensing system for $100,000. It saves $30,000 per year. What is the annual return on investment (ROI)?",
+    "options": [
+      "70%",
+      "333%",
+      "30%",
+      "3%"
+    ],
+    "correct_index": 2,
+    "explanations": {
+      "correct_reason": "ROI = (annual net gain / cost of investment) x 100 = ($30,000 / $100,000) x 100 = 30% per year. As a related measure, the payback period is $100,000 / $30,000, or about 3.3 years.",
+      "incorrect_reasons": [
+        "70% is the proportion of the investment still unrecovered after one year (100% minus 30%). It is not the return.",
+        "333% results from inverting the formula (cost divided by savings). That ratio is closer to the payback period of about 3.3 years, not a percentage return.",
+        "3% comes from a decimal-place slip. $30,000 divided by $100,000 is 0.30, which is 30%, not 3%."
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "topic": "SMART Goals",
+    "question": "Which of the following is a SMART goal for a pharmacy?",
+    "options": [
+      "Improve customer service",
+      "Reduce the average prescription waiting time from 20 to 12 minutes within six months by adding a second verification station",
+      "Be the best pharmacy in the city",
+      "Try to reduce dispensing errors as much as possible soon"
+    ],
+    "correct_index": 1,
+    "explanations": {
+      "correct_reason": "This goal is Specific (waiting time), Measurable (20 to 12 minutes), Achievable (a concrete action is named), Relevant (it improves patient service) and Time-bound (six months). All five SMART criteria are met.",
+      "incorrect_reasons": [
+        "'Improve customer service' is vague. It has no measure, no target and no deadline, so progress cannot be judged.",
+        "'Best pharmacy in the city' is not measurable or time-bound, and what counts as 'best' is undefined.",
+        "'As much as possible soon' has no measurable target and no clear timeframe, so success cannot be verified."
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "topic": "GxP Standards",
+    "question": "A wholesaler transports insulin at 2-8°C using validated packaging and temperature loggers. Which GxP standard governs this activity?",
+    "options": [
+      "Good Manufacturing Practice (GMP)",
+      "Good Laboratory Practice (GLP)",
+      "Good Distribution Practice (GDP)",
+      "Good Clinical Practice (GCP)"
+    ],
+    "correct_index": 2,
+    "explanations": {
+      "correct_reason": "Good Distribution Practice sets quality requirements for storing, transporting and supplying medicines so that quality and integrity are maintained through the supply chain, including cold-chain control, temperature monitoring, documentation and traceability.",
+      "incorrect_reasons": [
+        "GMP governs the production of medicines (facilities, equipment, process control and batch records), not their transport after manufacture.",
+        "GLP governs the planning, conduct and recording of non-clinical laboratory safety studies, not logistics.",
+        "GCP governs the ethical and scientific conduct of clinical trials involving human subjects, not routine distribution."
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "topic": "Leadership Styles",
+    "question": "Which leadership style is most appropriate for a highly experienced, self-motivated pharmacy technician who needs little supervision?",
+    "options": [
+      "Autocratic",
+      "Laissez-faire (delegative)",
+      "Paternalistic",
+      "Bureaucratic"
+    ],
+    "correct_index": 1,
+    "explanations": {
+      "correct_reason": "Laissez-faire leadership gives competent, motivated people autonomy to decide how to do their work, with the leader available for support. For a skilled, experienced technician this builds ownership and job satisfaction without wasting management time.",
+      "incorrect_reasons": [
+        "Autocratic leadership makes decisions alone and closely directs staff. It suits crises or inexperienced workers, but would demotivate an expert.",
+        "Paternalistic leadership acts as a protective parent, deciding what is best for staff. It restricts the autonomy a skilled employee can handle.",
+        "Bureaucratic leadership relies on strict rules and procedures. It leaves little room for the independent judgement an experienced technician can offer."
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "topic": "SWOT Analysis",
+    "question": "In a SWOT analysis, a large chain pharmacy plans to open directly across the street from an independent pharmacy. For the independent pharmacy, this is a:",
+    "options": [
+      "Strength",
+      "Weakness",
+      "Opportunity",
+      "Threat"
+    ],
+    "correct_index": 3,
+    "explanations": {
+      "correct_reason": "Threats are external factors that could harm the organisation. A new competitor with greater purchasing power and marketing reach could take customers and reduce margins, and the independent pharmacy cannot control that event.",
+      "incorrect_reasons": [
+        "Strengths are internal advantages, such as skilled staff or loyal customers. A competitor's arrival is external and not an advantage.",
+        "Weaknesses are internal limitations of the pharmacy itself. A rival opening is an outside event, not an internal flaw.",
+        "Opportunities are favourable external conditions the pharmacy can exploit. Although it may prompt improvements, the competitor's arrival is primarily a danger."
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "topic": "Leading vs Managing",
+    "question": "Which statement best distinguishes leading from managing?",
+    "options": [
+      "Leading plans, budgets and controls processes; managing inspires people toward a vision",
+      "Leading and managing are identical activities",
+      "Leading inspires and influences people toward a vision and change, while managing plans, organizes and controls processes to deliver stable results",
+      "Leading applies only to executives, while managing applies only to frontline staff"
+    ],
+    "correct_index": 2,
+    "explanations": {
+      "correct_reason": "Management focuses on order and consistency: planning, budgeting, organizing, staffing and controlling to achieve results efficiently. Leadership focuses on direction and change: creating a vision, aligning and motivating people, and inspiring them to follow it. Effective pharmacy managers need both.",
+      "incorrect_reasons": [
+        "This reverses the two roles. Planning, budgeting and controlling are management functions, and inspiring toward a vision is leadership.",
+        "The two overlap but are not identical. One can manage processes well without inspiring anyone, and one can lead without holding formal management authority.",
+        "Leadership and management are not tied to rank. Frontline staff can lead (for example, by mentoring), and senior executives must also manage."
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "topic": "FEFO vs FIFO",
+    "question": "A pharmacy holds two batches of the same medicine: Batch A (received first, expires in 12 months) and Batch B (received later, expires in 4 months). Which rule should guide dispensing?",
+    "options": [
+      "FEFO (First Expired, First Out): dispense Batch B first",
+      "FIFO (First In, First Out): dispense Batch A first",
+      "Dispense the larger batch first to clear shelf space",
+      "Dispense whichever batch has the lower unit cost first"
+    ],
+    "correct_index": 0,
+    "explanations": {
+      "correct_reason": "FEFO issues the stock closest to expiry first, regardless of when it arrived. Batch B will expire sooner, so dispensing it first minimises wastage and ensures patients receive in-date medicines. FEFO is the preferred approach for pharmaceuticals.",
+      "incorrect_reasons": [
+        "FIFO uses arrival date, so Batch A would go first and Batch B could expire on the shelf, causing financial loss. FIFO works only when older stock also expires first.",
+        "Batch size has no bearing on expiry risk. Choosing by size could leave the short-dated batch to expire unused.",
+        "Cost is not a safe dispensing criterion. Selecting by price ignores expiry and could cause avoidable waste or supply of expired stock."
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "topic": "MTM Follow-up",
+    "question": "After a medication therapy management (MTM) session, the pharmacist follows up at four weeks to measure outcomes against the agreed goals and adjusts the care plan. Which management function does this represent?",
+    "options": [
+      "Controlling",
+      "Planning",
+      "Organizing",
+      "Leading"
+    ],
+    "correct_index": 0,
+    "explanations": {
+      "correct_reason": "Controlling means monitoring results against targets and taking corrective action. Checking whether the patient's outcomes meet the agreed goals and then modifying the plan is a feedback loop that ensures the MTM service achieves its intended purpose.",
+      "incorrect_reasons": [
+        "Planning occurred earlier when the goals and interventions were set. The follow-up evaluates how well that plan worked.",
+        "Organizing involves arranging resources, roles and workflow for the service. The follow-up is an evaluation step, not a structuring step.",
+        "Leading concerns motivating and guiding people. Although communication is involved, the defining activity here is measuring outcomes and correcting course."
+      ]
+    }
+  }
+]

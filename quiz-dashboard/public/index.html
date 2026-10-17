@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Foundations of Pharmaceutical Management</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+  <div id="progressWrap" class="progress-wrap hidden"><div id="progressBar" class="progress-bar"></div></div>
+  <button id="settingsBtn" class="settings-btn">⚙️ Settings</button>
+
+  <main class="container">
+    <!-- Registration -->
+    <section id="register" class="screen card">
+      <h1 class="main-title">FOUNDATIONS OF PHARMACEUTICAL MANAGEMENT</h1>
+      <p class="subtitle">Student Quiz Dashboard</p>
+      <form id="regForm">
+        <label>First Name<input id="firstName" required maxlength="40"></label>
+        <label>Middle Name (optional)<input id="middleName" maxlength="40"></label>
+        <label>Surname<input id="surname" required maxlength="40"></label>
+        <label>Computer ID<input id="computerId" required maxlength="40"></label>
+        <button type="submit" class="btn">Start Quiz</button>
+      </form>
+      <p class="note">15 multiple-choice questions · 15 minutes · you cannot go back to a previous question.</p>
+    </section>
+
+    <!-- Quiz -->
+    <section id="quiz" class="screen hidden">
+      <div class="quiz-top">
+        <span id="qCounter" class="q-counter"></span>
+        <span id="timer" class="timer">15:00</span>
+      </div>
+      <div id="timeWarn" class="warn hidden">⚠️ Time is up! A 50% penalty will be applied to your score. You may keep writing and submit when ready.</div>
+      <div class="card">
+        <h2 id="qText"></h2>
+        <div id="qOptions" class="options"></div>
+        <button id="nextBtn" class="btn" disabled>Next</button>
+      </div>
+    </section>
+
+    <!-- Waiting -->
+    <section id="waiting" class="screen card center hidden">
+      <h2>MCQs submitted ✔</h2>
+      <div class="spinner"></div>
+      <p>Waiting for Admin to enable the Short Answer section…</p>
+      <p class="note">This page will update automatically.</p>
+    </section>
+
+    <!-- Short answers -->
+    <section id="short" class="screen hidden">
+      <div class="card">
+        <h2>Short Answer Section (Ungraded)</h2>
+        <p class="note">Answer all 20 questions in your own words, then submit.</p>
+        <div id="shortList"></div>
+        <button id="shortSubmit" class="btn">Submit Short Answers</button>
+      </div>
+    </section>
+
+    <!-- Results -->
+    <section id="results" class="screen hidden">
+      <div class="card">
+        <div id="resultsContent"></div>
+        <button id="pdfBtn" class="btn">⬇ Download PDF</button>
+      </div>
+    </section>
+
+    <!-- Admin dashboard -->
+    <section id="admin" class="screen hidden">
+      <div class="card">
+        <div class="admin-head">
+          <h2>Admin Dashboard</h2>
+          <button id="exitAdmin" class="btn btn-light">← Exit</button>
+        </div>
+        <div class="tabs">
+          <button class="tab active" data-tab="marks">View Marks</button>
+          <button class="tab" data-tab="analytics">Analytics</button>
+        </div>
+        <div id="tab-marks">
+          <div class="toolbar">
+            <button id="enableBtn" class="btn">Enable Short Answer Section</button>
+            <button id="refreshBtn" class="btn btn-light">↻ Refresh</button>
+            <span id="enableState" class="note"></span>
+          </div>
+          <div class="table-wrap">
+            <table id="marksTable">
+              <thead><tr>
+                <th data-k="name">Name</th><th data-k="computerId">ID</th><th data-k="date">Date</th>
+                <th data-k="finalScore">Score</th><th data-k="penalty">Penalty</th><th data-k="shortSubmitted">Short Ans.</th>
+              </tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+        <div id="tab-analytics" class="hidden">
+          <div id="stats" class="stats"></div>
+          <div class="chart-box"><h3>Score Distribution</h3><canvas id="distChart"></canvas></div>
+          <div class="chart-box"><h3>Question Difficulty (% correct)</h3><canvas id="diffChart"></canvas></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Admin login: perfectly centered -->
+  <div id="adminLogin" class="overlay hidden">
+    <div class="login-box">
+      <h3>Admin Login</h3>
+      <input id="adminPw" type="password" placeholder="Enter password">
+      <p id="loginErr" class="err"></p>
+      <div class="row">
+        <button id="loginBtn" class="btn">Login</button>
+        <button id="loginCancel" class="btn btn-light">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">Prepared by Pharm. Bright Mapiki</footer>
+  <script src="app.js"></script>
+</body>
+</html>
